@@ -28,7 +28,7 @@ const uploadImg = (e) => {
   const data = new sectionData();
   data.append('image', maquiagens.maquiagens[0]);
 
-  doUpload('https://api.imgur.com/3/imege', {
+  doUpload('https://api.imgur.com/3/image', {
     method: 'POST',
     body: data,
     headers: {
